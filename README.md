@@ -1,7 +1,7 @@
 1. The project was created using Swagger.
 2. Set up your settings in .env file:
 - DOCKER_NGINX_PORT
- -DOCKER_USERNAME
+- DOCKER_USERNAME
 - DOCKER_USER_ID
 - DB_CONTAINER_PORT
 3. Launch Docker application, then docker in the project, type in Terminal: docker compose build, then:  docker compose up -d
