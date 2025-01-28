@@ -17,7 +17,7 @@
 6. Run composer install
 7. Run php artisan key:generate
 8. Execute a command: php artisan migrate:fresh --seed. It'll run migrations and run seeders to fill the database
-9. Go go to the browser and paste http://localhost:3070/.
+9. Go go to the browser and paste http://localhost:DOCKER_NGINX_PORT/, where DOCKER_NGINX_PORT was set up in your env file.
 10. You ll get the main page of app. You ll see routes:
 11. App list URLs
 - http://localhost:3070/api/tasks/filters : displays all tasks with filtering by status (completed or not completed) and author of the task
